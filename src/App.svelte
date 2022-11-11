@@ -4,14 +4,15 @@
   }
 </script>
 
+<h1>Chain together modifiers</h1>
 <button on:click={handleClick}>
   Click me! on:click
-</button>
+</button><br><br>
 
 <!-- two modifiers are chained together "click|once" -->
 <button on:click|once={handleClick}>
   Click me! on:click|once
-</button>
+</button><br><br>
 
 <!-- <button on:click={handleClick}> -->
 <!-- three modifiers are chained together "click|once|capture" -->
